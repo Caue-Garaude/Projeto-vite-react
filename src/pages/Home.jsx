@@ -29,6 +29,7 @@ function Home() {
   const subtitleStyle = {
     fontSize: '1.5em',
     marginBottom: '20px',
+    color: '#3C3838'
   };
 
   const buttonStyle = {
@@ -92,8 +93,8 @@ function Home() {
     <div>
       <div style={mainContainerStyle}>
         <div style={textContainerStyle}>
-          <h1 style={titleStyle}>Título Principal</h1>
-          <h2 style={subtitleStyle}>Subtítulo Descritivo</h2>
+          <h1 style={titleStyle}>Crie seus vídeos online</h1>
+          <h2 style={subtitleStyle}>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</h2>
           <button style={buttonStyle}>Vamos começar!</button>
         </div>
         <img src={yourImage} alt="Descrição da Imagem" style={imageStyle} />

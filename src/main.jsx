@@ -15,8 +15,8 @@ root.render(
     <main style={{ paddingTop: '60px' }}> {/* Adiciona um padding top para que o conteúdo não fique atrás do cabeçalho */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contato" element={<Contato />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route path="/contato" element={<Contato />} />
       </Routes>
     </main>
   </Router>

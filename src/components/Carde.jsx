@@ -11,7 +11,7 @@ function Card({ bgColor, title, icon, number, description }) {
     color: '#fff',
     boxShadow: '0 2px 4px rgba(0, 0, 0, 0.2)',
     backgroundColor: bgColor,
-    width: '250px',
+    width: '200px',
     position: 'relative',
   };
 

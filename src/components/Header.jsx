@@ -28,11 +28,12 @@ function Header() {
             <Link to="/" style={linkStyle}>Home</Link>
           </li>
           <li>
-            <Link to="/contato" style={linkStyle}>Contato</Link>
-          </li>
-          <li>
             <Link to="/sobre" style={linkStyle}>Sobre</Link>
           </li>
+          <li>
+            <Link to="/contato" style={linkStyle}>Contato</Link>
+          </li>
+          
         </ul>
       </nav>
     </header>

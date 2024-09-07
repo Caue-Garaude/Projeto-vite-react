@@ -1,8 +1,51 @@
-# React + Vite
+# Projeto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que inclui uma aplicação básica com várias páginas e um componente de navegação. 
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A aplicação possui as seguintes páginas:
+- **Home**: Página inicial com uma descrição e uma seção de cartões.
+- **Sobre**: Página com informações sobre o serviço e planos de preços.
+- **Contato**: Página com um formulário de contato e ícones de redes sociais.
+
+## Páginas
+
+- **Home.jsx**: Página inicial com uma breve introdução e seção de cartões informativos.
+- **Sobre.jsx**: Página com detalhes sobre a empresa e planos de preços.
+- **Contato.jsx**: Página com um formulário para contato e ícones de redes sociais.
+- **Main.jsx**: Arquivo principal que configura as rotas e inclui o cabeçalho.
+
+## Instalação
+
+Para rodar este projeto localmente, siga os seguintes passos:
+
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/seu-repositorio.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd seu-repositorio
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Inicie o servidor de desenvolvimento:
+    ```bash
+    npm start
+    ```
+
+5. Abra o navegador e vá para `http://localhost:3000` para ver a aplicação em funcionamento.
+
+## Autores
+
+- **Caue Garaude**, RM: 554838
+- **Felipe Xavier**, RM: 556931
+- **Cauã Rodrigues**, RM: 555373
+
+

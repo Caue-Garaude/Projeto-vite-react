@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa'; // Importa os ícones
+import { FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa'; 
 
 function Contato() {
   const pageStyle = {
@@ -7,7 +7,7 @@ function Contato() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '80vh', // Preenche a altura da página
+    height: '80vh', 
   };
 
   const containerStyle = {
@@ -47,7 +47,7 @@ function Contato() {
     padding: '10px 15px',
     marginBottom: '10px',
     border: '1px solid #ccc',
-    borderRadius: '30px', // Bordas arredondadas para parecer um botão
+    borderRadius: '30px', 
     fontSize: '1em',
     outline: 'none',
   };
@@ -57,7 +57,7 @@ function Contato() {
     padding: '10px 15px',
     marginBottom: '10px',
     border: '1px solid #ccc',
-    borderRadius: '30px', // Bordas arredondadas
+    borderRadius: '30px', 
     fontSize: '1em',
     outline: 'none',
     resize: 'none',
@@ -72,7 +72,7 @@ function Contato() {
     padding: '10px 20px',
     fontSize: '1em',
     cursor: 'pointer',
-    width: '50%', // Largura do botão
+    width: '50%', 
   };
 
   const socialIconsStyle = {
@@ -83,19 +83,17 @@ function Contato() {
   };
 
   const iconStyle = {
-    fontSize: '24px', // Tamanho dos ícones
-    color: '#8a00ff', // Cor dos ícones
+    fontSize: '24px', 
+    color: '#8a00ff', 
     cursor: 'pointer',
   };
 
   return (
     <div style={pageStyle}>
       <div style={containerStyle}>
-        {/* Seção da esquerda */}
         <div style={leftSectionStyle}>
           <h1>Dúvidas e suporte, entre em contato:</h1>
 
-          {/* Ícones das redes sociais */}
           <div style={socialIconsStyle}>
             <FaTwitter style={iconStyle} />
             <FaInstagram style={iconStyle} />
@@ -103,10 +101,10 @@ function Contato() {
           </div>
         </div>
 
-        {/* Linha divisória */}
+       
         <div style={dividerStyle}></div>
 
-        {/* Seção da direita */}
+
         <div style={rightSectionStyle}>
           <input type="text" placeholder="Nome" style={inputStyle} />
           <input type="email" placeholder="Email" style={inputStyle} />

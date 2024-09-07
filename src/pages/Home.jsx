@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../components/Carde'; // Ajuste o caminho conforme a estrutura do seu projeto
+import Card from '../components/Carde'; 
 import { FaYoutube, FaTiktok, FaFacebook, FaInstagram } from 'react-icons/fa';
-import yourImage from '../assets/Hero-image.png'; // Atualize para o nome correto da sua imagem PNG
+import yourImage from '../assets/Hero-image.png'; 
 
 function Home() {
   const mainContainerStyle = {
@@ -9,8 +9,8 @@ function Home() {
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     padding: '20px',
-    maxWidth: '1200px', // Limita a largura total
-    margin: '0 auto', // Centraliza o container
+    maxWidth: '1200px', 
+    margin: '0 auto', 
   };
 
   const textContainerStyle = {
@@ -18,7 +18,7 @@ function Home() {
     flexDirection: 'column',
     justifyContent: 'center',
     flex: '1',
-    marginRight: '20px', // Espaço entre o texto e a imagem
+    marginRight: '20px',
   };
 
   const titleStyle = {
@@ -46,7 +46,7 @@ function Home() {
 
   const imageStyle = {
     flex: '1',
-    maxWidth: '80%', // Ajusta o tamanho da imagem
+    maxWidth: '80%', 
     height: 'auto',
   };
 

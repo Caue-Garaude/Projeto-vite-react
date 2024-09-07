@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
-// Certifique-se de importar a imagem se precisar usá-la
-import yourImage from '../assets/Saved 1.png'; // Atualize para o nome correto da sua imagem PNG
+
+import yourImage from '../assets/Saved 1.png'; 
 import minhaImage from '../assets/Viseo Merge screen 1.png';
 import telaImage from '../assets/tela.png'
 
 function Sobre() {
-  // Estado para controlar as opções do dropdown
   const [individualVideos, setIndividualVideos] = useState("10 Videos");
   const [teamVideos, setTeamVideos] = useState("Vídeos Ilimitados");
 
@@ -19,8 +18,8 @@ function Sobre() {
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     padding: '20px',
-    maxWidth: '1200px', // Limita a largura total
-    margin: '0 auto', // Centraliza o container
+    maxWidth: '1200px', 
+    margin: '0 auto', 
   };
 
   const textContainerStyle = {
@@ -28,7 +27,7 @@ function Sobre() {
     flexDirection: 'column',
     justifyContent: 'center',
     flex: '1',
-    marginRight: '20px', // Espaço entre o texto e a imagem
+    marginRight: '20px', 
   };
 
   const titleStyle = {
@@ -55,7 +54,7 @@ function Sobre() {
   };
 
   const imageStyle = {
-    width: 'auto', // Ajusta o tamanho da imagem
+    width: 'auto', 
     height: 'auto',
     marginLeft: '50px',
   };
@@ -112,7 +111,6 @@ function Sobre() {
     cursor: 'pointer',
   };
 
-  // Funções para lidar com a seleção do dropdown
   const handleIndividualVideosChange = (e) => {
     setIndividualVideos(e.target.value);
   };
@@ -139,7 +137,6 @@ function Sobre() {
         <h1>Planos</h1>
       </div>
       
-      {/* Cards de Preço */}
       <div style={pricingContainerStyle}>
         <div style={pricingCardStyle}>
           <h2 style={pricingTitleStyle}>Individual</h2>

@@ -5,14 +5,13 @@ import Header from './components/Header';
 import Home from './pages/Home';
 import Contato from './pages/Contato';
 import Sobre from './pages/Sobre';
-import './App.css'; // Se você tiver algum CSS global, você pode incluir aqui
-
+import './App.css'; 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Router>
     <Header />
-    <main style={{ paddingTop: '60px' }}> {/* Adiciona um padding top para que o conteúdo não fique atrás do cabeçalho */}
+    <main style={{ paddingTop: '60px' }}> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre" element={<Sobre />} />

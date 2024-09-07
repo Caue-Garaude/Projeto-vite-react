@@ -2,6 +2,10 @@
 
 Este é um projeto React que inclui uma aplicação básica com várias páginas e um componente de navegação. 
 
+## link do projeto
+
+https://projeto-vite-react-beta.vercel.app/
+
 ## Descrição
 
 A aplicação possui as seguintes páginas:

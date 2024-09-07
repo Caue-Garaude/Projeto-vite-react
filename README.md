@@ -9,6 +9,13 @@ A aplicação possui as seguintes páginas:
 - **Sobre**: Página com informações sobre o serviço e planos de preços.
 - **Contato**: Página com um formulário de contato e ícones de redes sociais.
 
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção da interface de usuário.
+- **React Router**: Biblioteca para gerenciamento de rotas na aplicação.
+- **React Icons**: Biblioteca para inclusão de ícones em componentes React.
+- **CSS**: Folhas de estilo para a formatação da aplicação.
+
 ## Páginas
 
 - **Home.jsx**: Página inicial com uma breve introdução e seção de cartões informativos.
@@ -48,4 +55,6 @@ Para rodar este projeto localmente, siga os seguintes passos:
 - **Felipe Xavier**, RM: 556931
 - **Cauã Rodrigues**, RM: 555373
 
+## Licença
 
+Este projeto é licenciado sob a MIT License - veja o [LICENSE](LICENSE) para mais detalhes.
